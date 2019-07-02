@@ -1,87 +1,58 @@
-// Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+tab",
-        "command": "workbench.action.nextEditor"
+        "key": "cmd+backspace", "command": "editor.action.deleteLines",
+                                "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+tab",
-        "command": "workbench.action.previousEditor"
+        "key": "shift+cmd+\\",
+        "command": "workbench.action.joinTwoGroups"
     },
     {
-        "key": "cmd+k up",
-        "command": "workbench.action.moveEditorToAboveGroup"
+        "key": "shift+alt+n",
+        "command": "explorer.newFolder"
     },
     {
-        "key": "cmd+k down",
-        "command": "workbench.action.moveEditorToBelowGroup"
+        "key": "alt+n",
+        "command": "explorer.newFile"
     },
     {
-        "key": "cmd+k left",
-        "command": "workbench.action.moveEditorToLeftGroup"
-    },
-    {
-        "key": "cmd+k right",
-        "command": "workbench.action.moveEditorToRightGroup"
-    },
-    {
-        "key": "alt+up",
-        "command": "editor.action.insertCursorAbove",
+        "key": "home",
+        "command": "cursorTop",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+cmd+up",
-        "command": "-editor.action.insertCursorAbove",
+        "key": "cmd+up",
+        "command": "-cursorTop",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+down",
-        "command": "editor.action.insertCursorBelow",
+        "key": "end",
+        "command": "cursorBottom",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+cmd+down",
-        "command": "-editor.action.insertCursorBelow",
+        "key": "cmd+down",
+        "command": "-cursorBottom",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+cmd+down",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+cmd+up",
-        "command": "editor.action.moveLinesUpAction",
+        "key": "cmd+up",
+        "command": "editor.action.smartSelect.grow",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+cmd+up",
-        "command": "-editor.action.moveLinesUpAction",
+        "key": "ctrl+shift+cmd+right",
+        "command": "-editor.action.smartSelect.grow",
         "when": "editorTextFocus"
     },
     {
-        "key": "cmd+k cmd+l",
-        "command": "editor.action.transformToLowercase"
+        "key": "cmd+down",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     },
     {
-        "key": "cmd+k cmd+u",
-        "command": "editor.action.transformToUppercase"
-    },
-    {
-        "key": "ctrl+cmd+w",
-        "command": "-workbench.action.toggleTabsVisibility"
-    },
-    {
-        "key": "ctrl+cmd+\\",
-        "command": "workbench.files.action.showActiveFileInExplorer"
-    },
-    {
-        "key": "alt+cmd+\\",
-        "command": "-workbench.files.action.showActiveFileInExplorer"
+        "key": "ctrl+shift+cmd+left",
+        "command": "-editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     }
 ]

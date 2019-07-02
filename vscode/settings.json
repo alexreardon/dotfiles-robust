@@ -1,87 +1,58 @@
 {
-    "atomKeymap.promptV3Features": true,
-    "editor.formatOnPaste": true,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderWhitespace": "all",
-    "explorer.openEditors.visible": 0,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
+    "editor.fontSize": 16,
+    "editor.scrollBeyondLastLine": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.multiCursorModifier": "alt",
     "files.trimTrailingWhitespace": true,
-    "go.inferGopath": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "search.location": "panel",
-    "trailing-spaces.trimOnSave": true,
-    "tslint.autoFixOnSave": true,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "typescriptHero.codeOutline.enabled": false,
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Gloom",
-    "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vs-seti",
-    "workbench.panel.defaultLocation": "right",
-    "workbench.startupEditor": "none",
-    "workbench.editor.showTabs": true,
-    "editor.rulers": [
-        80
-    ],
-    "projectManager.git.baseFolders": [
-        "$home/development",
-        "$home/spike",
-        "$home/lab"
-    ],
-    "explorer.autoReveal": false,
-    "typescript.preferences.quoteStyle": "single",
-    "prettier.tabWidth": 4,
-    "sasslint.configFile": "node_modules/bcapp-pattern-lab/.scss-lint.yml",
-    "javascript.validate.enable": false,
+    "files.autoSave": "onFocusChange",
+    "window.openFilesInNewWindow": "on",
+    "debug.allowBreakpointsEverywhere": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.snippetSuggestions": "top",
+    "flow.enabled": true,
     "flow.useNPMPackagedFlow": true,
-    "launch": {
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "type": "chrome",
-                "request": "launch",
-                "name": "Launch Chrome against localhost",
-                "url": "http://localhost:8080",
-                "webRoot": "${workspaceFolder}"
-            },
-            {
-                "type": "node",
-                "request": "launch",
-                "name": "Jest All",
-                "program": "${workspaceFolder}/node_modules/.bin/jest",
-                "args": [
-                    "--runInBand",
-                ],
-                "console": "integratedTerminal",
-                "internalConsoleOptions": "neverOpen",
-                "disableOptimisticBPs": true,
-                "windows": {
-                    "program": "${workspaceFolder}/node_modules/jest/bin/jest",
-                }
-            },
-            {
-                "type": "node",
-                "request": "launch",
-                "name": "Jest Current File",
-                "program": "${workspaceFolder}/node_modules/.bin/jest",
-                "args": [
-                    "${relativeFile}",
-                    "--config",
-                    "jest.config.js"
-                ],
-                "console": "integratedTerminal",
-                "internalConsoleOptions": "neverOpen",
-                "disableOptimisticBPs": true,
-                "windows": {
-                    "program": "${workspaceFolder}/node_modules/jest/bin/jest",
-                }
-            }
-        ],
-        "compounds": []
-    }
+    "window.zoomLevel": 0,
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": true,
+    "editor.accessibilitySupport": "off",
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "eslint.options": {
+        "rules": {
+            // disabling .only auto fixing for editors
+            "jest/no-focused-tests": "off",
+            // allowing debugger statements
+            "no-debugger": "off",
+        }
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "npm-intellisense.importQuotes": "'",
+    "terminal.integrated.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "autoimport.doubleQuotes": false,
+    "prettier.requireConfig": true,
+    "cSpell.userWords": [
+        "draggables",
+        "droppable",
+        "droppables",
+        "scrollable",
+        "scrollables",
+        "scroller",
+        "unmount",
+        "unmounts"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "breadcrumbs.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.enablePreview": false,
+    "liveshare.featureSet": "insiders",
 }
