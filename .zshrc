@@ -26,6 +26,8 @@ ZSH_THEME="" # left empty to tell oh-my-zsh not to load a theme
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# https://github.com/zsh-users/zsh-syntax-highlighting (installed via brew)
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
 # Must be loaded after source $ZSH/oh-my-zsh.sh
