@@ -6,8 +6,6 @@
 	default = simple
 [core]
 	excludesfile = ~/.dotfiles/git/.gitignore
-[commit]
-	template = ~/.dotfiles/git/templates/commit
 [rebase]
     autosquash=true
 [alias]

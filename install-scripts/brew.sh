@@ -11,9 +11,10 @@ echo "Upgrading brew"
 # Upgrade brew
 brew upgrade
 
-echo "Installing formula"
+echo "Installing formula (cli tools)"
 
 # Dependencies
+brew install wget
 brew install yarn
 brew install trash
 brew install nvm
@@ -22,8 +23,9 @@ brew install openssl
 brew install rename
 brew install tree
 brew install vim
+brew install thefuck
 
-echo "Brew Cask"
+echo "Installing casks (apps)"
 
 # Browsers
 brew cask install firefox
@@ -33,11 +35,26 @@ brew cask install google-chrome-canary
 # Editors
 brew cask install visual-studio-code
 
-# Applications
+# Tools
+
+# Dev
+brew cask install virtualbox
+brew cask install ngrok
+
+## Utilities
+brew cask install freedom
+brew cask install spectacle
+brew cask install alfred
 brew cask install 1password
+
+## Apps
+brew cask install spotify
 brew cask install dropbox
 brew cask install sketch
 brew cask install slack
+
+
+echo "Cleaning up brew"
 
 # Cleanup
 brew cleanup

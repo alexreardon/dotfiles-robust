@@ -24,7 +24,7 @@ ZSH_THEME="" # left empty to tell oh-my-zsh not to load a theme
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting docker tldr)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,6 +88,9 @@ function github() {
 
 export NVM_DIR="/Users/${USERNAME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# fix commands with 'fix' command
+eval $(thefuck --alias fix)
 
 
 # add-zsh-hook chpwd load-nvmrc
