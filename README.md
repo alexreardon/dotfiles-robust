@@ -3,7 +3,7 @@
 ## Installation 📦
 Clone this repo to a hidden `/.dotfile` directory in your home directory:
 
-`cd ~ && git clone git@github.com:alexreardon/dotfiles.git ~/.dotfiles`
+`cd ~ && git clone git@github.com:alexreardon/dotfiles-robust.git ~/.dotfiles`
 
 Run setup scripts:
 
