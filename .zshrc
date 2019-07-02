@@ -58,6 +58,7 @@ alias editor="code"
 
 # Alias dirs
 alias go/code="cd ~/code"
+alias go/dnd="cd ~/code/react-beautiful-dnd"
 
 # Sets vim version
 export EDITOR=`which vim`
@@ -86,8 +87,9 @@ function github() {
   fi
 }
 
-export NVM_DIR="/Users/${USERNAME}/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # fix commands with 'fix' command
 eval $(thefuck --alias fix)

@@ -4,7 +4,8 @@ echo "Symlinks 🔀"
 
 ln -sf ~/.dotfiles/.vimrc ~/.vimrc
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/git/* ~/.config/git
+ln -sf ~/.dotfiles/git/.gitconfig ~/gitconfig
+ln -sf ~/.dotfiles/git/.gitignore ~/gitignore
 
 echo "VS Code 📝"
 
