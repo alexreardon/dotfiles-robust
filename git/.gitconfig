@@ -1,17 +1,31 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Daniel Del Core
-	email = daniel.delcore.92@gmail.com
+	name = Alex Reardon
+	email = alexreardon@gmail.com
 [push]
 	default = simple
 [core]
 	excludesfile = ~/.dotfiles/git/.gitignore
 [commit]
 	template = ~/.dotfiles/git/templates/commit
-[filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
 [rebase]
     autosquash=true
+[alias]
+	ci = commit
+	st = status --short --branch
+	a = add --patch
+	co = checkout
+	ds = diff --staged
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cl = log --color --pretty=format:'%ai %aN %n%n%x09* %s%d%n' --abbrev-commit --no-merges
+	wc = whatchanged --color --pretty=format:'%ai %aN %n%n%x09* %s%d%n' --abbrev-commit --no-merges
+	fa = commit --amend --no-edit --no-verify
+	conflicts = log --grep=Conflicts
+	merged = branch --merged
+	unmerged = branch --no-merged
+	unstage = reset HEAD
+	recent = for-each-ref --sort=-committerdate --count=16 refs/heads/ --format='%(HEAD) %(color:green)%(committerdate:relative)%(color:reset): %(color:cyan)%(refname:short)%(color:reset) - "%(contents:subject)" - %(color:yellow)%(authorname)%(color:reset) (%(color:red)%(objectname:short)%(color:reset))'
+	prev = checkout HEAD^1
+	next = "!sh -c 'git log --reverse --pretty=%H master | awk \"/$(git rev-parse HEAD)/{getline;print}\" | xargs git checkout'"
+	# Checkout PR from github by id
+	pr = !sh -c 'git fetch origin pull/$1/head:pull-$1 && git checkout pull-$1' -

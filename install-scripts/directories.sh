@@ -3,7 +3,7 @@
 echo "Creating directories 📂"
 
 # Create development directories
-mkdir ~/Development
-mkdir ~/Lab
+mkdir ~/code
+mkdir ~/github
 
 echo "Directories created 📂"

@@ -17,13 +17,13 @@ echo "Dock 🛳"
 defaults write com.apple.dock tilesize -int 36
 
 # System Preferences > Dock > Magnification:
-defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock magnification -bool false
 
 # System Preferences > Dock > Size (magnified):
 defaults write com.apple.dock largesize -int 54
 
 # System Preferences > Dock > Automatically hide and show the Dock:
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 echo "Mission Control"
 
