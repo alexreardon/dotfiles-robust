@@ -45,6 +45,8 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Finder > View > Show Path Bar
 defaults write com.apple.finder ShowPathbar -bool true
 
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
 echo "Mission Control"
 
 # System Preferences > Mission Controll > Automatically rearrange Spaces based on most recent use

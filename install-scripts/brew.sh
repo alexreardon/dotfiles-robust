@@ -24,6 +24,7 @@ brew install rename
 brew install tree
 brew install vim
 brew install thefuck
+brew install zsh-syntax-highlighting
 
 echo "Installing casks (apps)"
 

@@ -30,8 +30,8 @@
         }
     },
     "javascript.preferences.quoteStyle": "single",
-    "npm-intellisense.importQuotes": "'",
     "terminal.integrated.fontSize": 16,
+    "terminal.integrated.shell.osx": "zsh",
     "explorer.confirmDelete": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "autoimport.doubleQuotes": false,
