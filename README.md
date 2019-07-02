@@ -3,7 +3,9 @@
 ## Installation 📦
 Clone this repo to a hidden `/.dotfile` directory in your home directory:
 
-`cd ~ && git clone git@github.com:danieldelcore/dotfiles.git ~/.dotfiles`
+`mkdir ~/.dotfiles`
+
+`cd ~ && git clone git@github.com:alexreardon/dotfiles.git ~/.dotfiles`
 
 Run setup scripts:
 
