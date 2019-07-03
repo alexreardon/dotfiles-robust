@@ -25,6 +25,7 @@ brew install tree
 brew install vim
 brew install thefuck
 brew install zsh-syntax-highlighting
+brew install watchman # used for watching files
 
 echo "Installing casks (apps)"
 
@@ -41,7 +42,6 @@ brew cask install visual-studio-code
 # Dev
 brew cask install virtualbox
 brew cask install ngrok
-brew install watchman # used for watching files
 
 ## Utilities
 brew cask install freedom
