@@ -41,6 +41,7 @@ brew cask install visual-studio-code
 # Dev
 brew cask install virtualbox
 brew cask install ngrok
+brew install watchman # used for watching files
 
 ## Utilities
 brew cask install freedom
@@ -53,6 +54,7 @@ brew cask install spotify
 brew cask install dropbox
 brew cask install sketch
 brew cask install slack
+brew cask install screenflow
 
 
 echo "Cleaning up brew"
