@@ -25,6 +25,7 @@ brew install tree
 brew install vim
 brew install thefuck
 brew install zsh-syntax-highlighting
+brew install watchman # used for watching files
 
 echo "Installing casks (apps)"
 
@@ -54,6 +55,7 @@ brew cask install spotify
 brew cask install dropbox
 brew cask install sketch
 brew cask install slack
+brew cask install screenflow
 
 
 echo "Cleaning up brew"

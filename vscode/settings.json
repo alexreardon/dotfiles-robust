@@ -17,7 +17,7 @@
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
-    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDragAndDrop": false,
     "editor.accessibilitySupport": "off",
     "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
