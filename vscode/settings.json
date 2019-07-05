@@ -55,4 +55,8 @@
     },
     "workbench.editor.enablePreview": false,
     "liveshare.featureSet": "insiders",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }

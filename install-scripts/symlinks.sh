@@ -13,4 +13,8 @@ ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User
 ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 # ln -sf ~/.dotfiles/vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets
 
+echo "Keyboard 🎹"
+
+ln -sf ~/.dotfiles/keyboard/karabiner.json ~/.config/karabiner/karabiner.json
+
 echo "Symlinks finished 🔀"

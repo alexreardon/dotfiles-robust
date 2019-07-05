@@ -47,6 +47,7 @@ brew cask install freedom
 brew cask install spectacle
 brew cask install alfred
 brew cask install 1password
+brew cask install karabiner-elements # for mechanical keyboard
 
 ## Apps
 brew cask install spotify

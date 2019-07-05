@@ -45,6 +45,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Finder > View > Show Path Bar
 defaults write com.apple.finder ShowPathbar -bool true
 
+# Finder > Show hidden files
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 echo "Mission Control"
