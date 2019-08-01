@@ -56,8 +56,6 @@ brew cask install dropbox
 brew cask install sketch
 brew cask install slack
 brew cask install screenflow
-brew cask install trello
-
 
 echo "Cleaning up brew"
 
