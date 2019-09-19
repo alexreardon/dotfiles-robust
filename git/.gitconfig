@@ -9,7 +9,7 @@
 [rebase]
     autosquash=true
 [alias]
-	ci = commit
+	c = commit
 	st = status --short --branch
 	a = add --patch
 	co = checkout

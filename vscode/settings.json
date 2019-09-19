@@ -37,9 +37,12 @@
     "autoimport.doubleQuotes": false,
     "prettier.requireConfig": true,
     "cSpell.userWords": [
+        "Draggable",
+        "Reparenting",
         "draggables",
         "droppable",
         "droppables",
+        "reparent",
         "scrollable",
         "scrollables",
         "scroller",
