@@ -56,6 +56,7 @@ brew cask install dropbox
 brew cask install sketch
 brew cask install slack
 brew cask install screenflow
+brew cask install zoomus
 
 echo "Cleaning up brew"
 

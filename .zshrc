@@ -60,7 +60,7 @@ alias editor="code"
 
 # Alias dirs
 alias go/code="cd ~/code"
-alias go/dnd="cd ~/code/react-beautiful-dnd"
+alias go/rbd="cd ~/code/react-beautiful-dnd"
 
 # Sets vim version
 export EDITOR=`which vim`
