@@ -57,6 +57,7 @@ ssh-add -l > /dev/null || ssh-add
 #
 # Aliases
 alias editor="code"
+alias touchbar="sudo pkill TouchBarServer"
 
 # Alias dirs
 alias go/code="cd ~/code"
