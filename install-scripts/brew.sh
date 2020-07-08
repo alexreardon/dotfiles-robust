@@ -57,6 +57,8 @@ brew cask install sketch
 brew cask install slack
 brew cask install screenflow
 brew cask install zoomus
+# brew cask install notion
+# brew cask install microsoft-teams
 
 echo "Cleaning up brew"
 

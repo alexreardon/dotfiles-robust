@@ -11,6 +11,6 @@ npm install -g npm@latest
 
 echo "Installing global dependencies"
 
-npm install -g pure-prompt
+yarn global add pure-prompt fkill-cli
 
 echo "Node finished ⬢"
