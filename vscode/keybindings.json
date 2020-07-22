@@ -1,7 +1,8 @@
 [
     {
-        "key": "cmd+backspace", "command": "editor.action.deleteLines",
-                                "when": "editorTextFocus && !editorReadonly"
+        "key": "cmd+backspace",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "shift+cmd+\\",
