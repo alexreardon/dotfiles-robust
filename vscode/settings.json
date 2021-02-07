@@ -52,7 +52,7 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -84,14 +84,4 @@
     "cSpell.customUserDictionaries": [
 
     ],
-}
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
 }
